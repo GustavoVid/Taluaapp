@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Supermercado del Licor</title>
+  <base href="/">
+  <link rel="stylesheet" href="./product-list.component.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div style="background-color: aquamarine;">
+<div>
+    <h1>{{title}}</h1>
+</div>
+<hr class="divider" />
+<h2>Listado de Productos</h2>
+<div class="product-list" style="background-color: rgb(59, 137, 182);">
+    <app-product-card *ngFor="let item of list"
+    [product]="item"
+    (productSelected)="goToDetail($event)"></app-product-card>
+</div>
+<h2>Carrito de Compras</h2>
+<div class="menu">
+  <label for="customers" id="lblcustomer">Elige un Cliente:</label>
+  <select name="customers" id="customers">
+    <option value="1">Gustavo Vidaurre Vera</option>
+    <option value="2">Jaime Nava Barrero</option>
+    <option value="3">Luana Vidaurre Camacho</option>
+    <option value="4">Luis Machicao</option>
+  </select>
+</div>
+<div class="prepro">
+    <table style="width:90%" class="tabla">
+        <tr>
+          <th class="t1" style="width:10%">Id. Prod</th>
+          <th class="t2" style="width:40%">Nombre Producto</th>
+          <th class="t3" style="width:20%">Cantidad</th>
+          <th class="t4" style="width:20%">Precio Unit.</th>
+        </tr>         
+         <tr>
+            <td>1</td>
+            <td>Ron Abuelo</td>
+            <td>1</td>
+            <td>350.00</td>
+        </tr>  
+        <tr>
+          <td>2</td>
+          <td>Ron Barcelo Litro</td>
+          <td>1</td>
+          <td>380.00</td>
+      </tr>    
+  </table>
+</div>
+</div>
+</body>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Supermercado del Licor</title>
+  <base href="/">
+  <link rel="stylesheet" href="./login.component.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Supermercado del Licor</h1>
+    <div class="contenedor">
+      <th><img src="../assets/images/logo.png" id="logocomp" width="200" alt="logo companhia"/></th>
+    </div>
+  </header> 
+      <nav class="navegacion">
+          <ul class="lista">
+              <li (click)="goToCustomer()">Clientes</li>
+              <li (click)="goToCreateProduct()">Productos</li>
+              <li (click)="goToProductList()">Compras</li>
+              <li>Consultas</li>
+          </ul>
+      </nav>
+</body>
+</html>

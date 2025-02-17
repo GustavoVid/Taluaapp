@@ -1,0 +1,27 @@
+#carrito{
+    background-color: rgb(15, 58, 71);
+    margin-left: 38rem;
+    padding: 15px 40px;
+    color: rgb(253, 251, 251);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10rem;
+  }
+    
+  .imgcarrito{
+    position:absolute;
+    margin-left: 38rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #carrito:hover {
+    background-color: rgb(212, 19, 138);
+  }
+button{
+    background-color: rgb(240, 22, 22);
+    color:rgb(17, 17, 17);
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor:pointer;
+}

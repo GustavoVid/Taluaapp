@@ -1,0 +1,41 @@
+html, body { height: 100%; }
+body { 
+  margin: 0; font-family:  Roboto, "Helvetica Neue", sans-serif; 
+  background-color: rgb(198, 214, 221);
+  height: 60rem;
+}
+h1{
+  text-align:justify;
+  text-size-adjust: 14px;
+  color: rgb(10, 10, 97);
+}
+h2{
+    text-align: center;
+    text-size-adjust: 12px;
+    color: rgb(29, 32, 105)
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: 4rem;
+}
+.t1,.t2,.t3,.t4{
+  background-color: #79d6d6;
+  color:rgb(10, 10, 97);
+  height: 40px;
+  align-items: center;
+  align-content: center;
+}
+
+td {
+  text-align: center;
+  height: 35px;
+}
+#customers{
+  margin-left: 1rem;
+}
+#lblcustomer{
+  margin-left: 5rem;
+  color:rgb(10, 10, 97);
+}
+

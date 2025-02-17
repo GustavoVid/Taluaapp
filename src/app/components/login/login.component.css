@@ -1,0 +1,55 @@
+html, body { height: 100%; }
+body { 
+  margin: 0; font-family:  Roboto, "Helvetica Neue", sans-serif; 
+  background-color: rgb(198, 214, 221);
+  height: 45rem;
+}
+#titulo{
+  text-align: center;
+  text-size-adjust: 14px;
+  color: rgb(10, 10, 97);
+}
+#logocomp{
+  position: relative;
+  text-align: center;
+  border: 10px ridge rgb(26, 70, 138);
+  background-color: rgb(197, 212, 223);
+  border-radius: 15%;
+  margin-top: 10px;
+  display: flex;
+  width: 15rem;
+  height: 15rem;
+  margin-left: 12rem;
+}
+
+.contenedor{
+  display:flex;
+  margin-left: 19rem;
+  align-items: center;
+}
+
+.navegacion{
+  background-color: rgba(44, 103, 170, 0.849);
+  width: 10rem;
+  text-align: center;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+.lista{
+  list-style-type: none;
+  padding-left: 0%;
+  border-top: 1px solid white;
+  display: inline;
+}
+.lista li{
+  color: rgb(159, 213, 230);
+  padding: 15px;
+  border-bottom: 1px solid white;
+  cursor:pointer;
+}
+.lista li:hover{
+  background-color: rgb(212, 19, 138);
+}

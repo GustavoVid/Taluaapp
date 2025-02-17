@@ -1,0 +1,33 @@
+html, body { height: 100%; }
+body{
+    font-family: 'Roboto', Arial;
+    margin: 20px;
+}
+#titulo{
+    font-size: larger;
+    color: rgb(42, 42, 151);
+}
+.form-label{
+    border-radius: 1px;
+    background-color: rgb(29, 18, 185);
+    color: rgb(252,252,252);
+    display:flex;
+    width:20rem;
+    height: 1.8rem;
+}
+.mb-2 {
+    display: flex;
+    width: 50rem;
+    height:1.8rem;
+}
+.mb-3 {
+    display: flex;
+    width: 25rem;
+    height:1.8rem;
+}
+#name{
+    width: 50rem;
+}
+#price{
+    width: 25rem;
+}
